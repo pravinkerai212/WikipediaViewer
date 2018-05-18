@@ -1,0 +1,63 @@
+body {
+	background-color: #E0E0E0;
+}
+
+a, a:link, a:active, a:visited, a:hover {
+	text-decoration: none;
+}
+
+input[type='text'] {
+	border: 3px solid #F50057;
+	height: 65px;
+}
+
+input[type='text']:focus {
+	border: 3px solid #F50057;
+}
+
+.input-group-addon {
+	font-size: 2em;
+}
+
+#heading {
+	padding-bottom: 25px;
+}
+
+#heading h1 {
+	color: #F50057;
+}
+
+#search {
+	background-color: #F50057;
+}
+
+#search i {
+	color: white;
+}
+
+#random h2 {
+	margin: 0px;
+	color: #FF4081;
+}
+
+#random i {
+	padding: 12px 25px;
+	border-radius: 10px;
+	color: white;
+	background-color: #F50057;
+}
+
+#res {
+	padding: 25px 0px;
+}
+
+#resultdiv {
+	background-color: #F50057;
+	border-radius: 5px;
+	margin: 25px auto;
+	padding: 15px 30px;
+}
+
+#resultdiv a {
+	color: white;
+}

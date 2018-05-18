@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Wikipedia Viewer App</title>
+
+	<!-- font awesome cdn  -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	<!-- Bootstrap’s compiled CSS and JS. -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+	<!-- jquery and bootstrap js files cdn -->
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row" id="heading">
+			<div class="col-md-12">
+				<h1 class="text-center">The Wikipedia Viewer</h1>
+				<div class="text-center" id="random">
+					<a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">
+						<h2>Random articles <i class="fa fa-random fa-lg"></i></h2>
+					</a>
+					<h2>OR</h2>
+				</div>
+				<!-- form for search input -->
+				<form class="form" action="javascript:void(0);">
+					<div class="input-group">
+						<input type="text" name="query" id="query" class="form-control input-lg" placeholder="search">
+						<div class="input-group-addon btn" id="search">
+							<i class="fa fa-search"></i>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div id="res">
+		</div>
+	</div>
+	<br>
+	<h5 class="text-center">by Pravin Kerai</h5>
+	<script type="text/javascript" src="./js/scripts.js"></script>
+</body>
+</html>
